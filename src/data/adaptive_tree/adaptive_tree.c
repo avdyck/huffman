@@ -266,7 +266,7 @@ void encode_adaptive( output_wrapper *out,  int k) {
 
     // We can't immediately write because we need to write from up to down
     // That's why the character is cached first.
-    static buffer_t caches[CACHES_AMOUNT];
+    buffer_t caches[CACHES_AMOUNT];
     buffer_t cache = 0;
     j = 0; depth = 0;
 
